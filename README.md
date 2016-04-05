@@ -4,7 +4,6 @@ how to compile quetionA
 
 $ g++ -o A questionA.cpp
 $ ./A.exe
-2032
 
 
 
@@ -27,6 +26,9 @@ v1/v2 are different.
 
 sort(): 0.453 seconds
 v1/v2 are different.
+insertion_sort(): 7584.361 seconds
+v1/v2 are different.
 
 
-插入排序的時間複雜度，最差與平均時間為n*n，所需時間與遠超出nlogn
+sort運作時間是對數成長，insertion_sort是指數成長
+insertion_sort的時間複雜度，最差與平均時間為n*n，所需時間遠遠超出nlogn
